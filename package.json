@@ -28,7 +28,7 @@
   "scripts": {
     "pretest": "jscs ./lib/",
     "test": "mocha tests/*.js",
-	"start": "node app.js"
+	"start": "node examples/advisor_bot.js"
   },
   "repository": {
     "type": "git",

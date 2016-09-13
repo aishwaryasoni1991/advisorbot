@@ -7,7 +7,7 @@ http.createServer(function(req, res) {
     case '/':
     case '/advisor_bot.js': {
       res.writeHead(200, { 'Content-Type': 'text/javascript'});
-      res.end(fs.readFileSync('examples/advisor_bot.js', 'utf8'));
+      res.end(fs.readFileSync('/examples/advisor_bot.js', 'utf8'));
       break;
     }
     default: {

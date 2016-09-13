@@ -1,7 +1,7 @@
 var http = require('http');
 var fs = require('fs')
 
-var port =Number(process.env.PORT || 1337)
+var port =Number(process.env.PORT || 5000)
 http.createServer(function(req, res) {
   switch (req.url) {
     case '/':

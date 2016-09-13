@@ -66,7 +66,7 @@ This bot demonstrates many of the core features of Botkit:
 
 
 var Botkit = require('../../botkit');
-
+//console.log(Botkit);
 
 process.env.token='xoxb-76071313888-0qM64JSccWRPe0LI6Z0DaEgv';
 if (!process.env.token) {

@@ -7,7 +7,7 @@ http.createServer(function(req, res) {
     case '/':
     case '/advisor_bot.js': {
       res.writeHead(200, { 'Content-Type': 'text/javascript'});
-      res.end(fs.readFileSync('advisor_bot.js', 'utf8'));
+      res.end(fs.readFileSync('examples/advisor_bot.js', 'utf8'));
       break;
     }
     default: {
@@ -18,4 +18,4 @@ http.createServer(function(req, res) {
 }
 }).listen(port, '127.0.0.1');
 
-console.log('Server running at http://127.0.0.1: /');
+console.log('Server running at http://127.0.0.1: /'+port);
